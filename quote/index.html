@@ -89,8 +89,8 @@
 :root .bricks-background-info {background-color: #d2e18e}
  html {background-color: #000000}
  body {background: none}
- #brx-content {margin-right: 10px; margin-left: 10px}
- .content-area {margin-right: 10px; margin-left: 10px}
+ #brx-content {margin-right: auto; margin-left: auto}
+ .content-area {margin-right: auto; margin-left: auto}
  .bricks-button:not([class*="bricks-background-"]):not([class*="bricks-color-"]) {background-color: #0033a0}
  .bricks-button {color: #ffffff; font-family: "Libre Caslon Text"; box-shadow: var(--bricks-color-a06f6b); border-radius: 5px}
 
@@ -247,6 +247,10 @@
 @media (max-width: 767px) {
 #brxe-prqgla {align-self: center !important; justify-content: center; align-items: center}
 }
+/* BREAKPOINT: Mobile portrait */
+@media (max-width: 478px) {
+#brxe-prqgla {flex-direction: row}
+}
 
 /* BREAKPOINT: Desktop (BASE) */
 #brxe-tafegn {align-self: center; text-align: left; margin-top: 5px; margin-bottom: 5px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px}
@@ -272,7 +276,7 @@
 }
 /* BREAKPOINT: Mobile portrait */
 @media (max-width: 478px) {
-#brxe-fytjbo {text-align: right}
+#brxe-fytjbo {text-align: right; flex-direction: row}
 #brxe-fytjbo li.has-link a, #brxe-fytjbo li.no-link {align-items: center; justify-content: center}
 }
 
@@ -297,7 +301,7 @@
 }
 /* BREAKPOINT: Mobile portrait */
 @media (max-width: 478px) {
-#brxe-teghgw {font-family: "Libre Caslon Display"; align-items: center; justify-content: center; align-self: center !important; flex-wrap: nowrap}
+#brxe-teghgw {font-family: "Libre Caslon Display"; align-items: center; justify-content: center; align-self: stretch !important; width: 100%; flex-wrap: nowrap; flex-direction: row; width: 100vw}
 }</style>
 <link rel="https://api.w.org/" href="https://ldavis09.github.io/GregH/wp-json/">
 <link rel="alternate" type="application/json" href="https://ldavis09.github.io/GregH/wp-json/wp/v2/pages/21">
@@ -324,68 +328,68 @@
 <div id="brxe-ypihqg" class="brxe-block bricks-lazy-hidden">
 <h3 id="brxe-pnybka" class="brxe-heading">Request a quote</h3>		<form id="brxe-noocdw" data-script-id="noocdw" class="brxe-form" method="post" data-element-id="noocdw">
 						<div class="form-group">
-				<label for="form-field-84dca3" class="required">Company Name</label><input id="form-field-84dca3" name="form-field-uwerts" aria-label="Company Name" type="text" value placeholder="Company Name *" spellcheck="false" required>
+				<label for="form-field-584407" class="required">Company Name</label><input id="form-field-584407" name="form-field-uwerts" aria-label="Company Name" type="text" value placeholder="Company Name *" spellcheck="false" required>
 				
 				
 							</div>
 
 							<div class="form-group">
-				<label for="form-field-9f8c9c" class="required">First name</label><input id="form-field-9f8c9c" name="form-field-27932b" aria-label="First name" type="text" value placeholder="First Name *" spellcheck="false" required>
+				<label for="form-field-038702" class="required">First name</label><input id="form-field-038702" name="form-field-27932b" aria-label="First name" type="text" value placeholder="First Name *" spellcheck="false" required>
 				
 				
 							</div>
 
 							<div class="form-group">
-				<label for="form-field-ae0d75" class="required">Last Name</label><input id="form-field-ae0d75" name="form-field-iblzki" aria-label="Last Name" type="text" value placeholder="Last name *" spellcheck="false" required>
+				<label for="form-field-3d641d" class="required">Last Name</label><input id="form-field-3d641d" name="form-field-iblzki" aria-label="Last Name" type="text" value placeholder="Last name *" spellcheck="false" required>
 				
 				
 							</div>
 
 							<div class="form-group">
-				<label for="form-field-415c07" class="required">Phone number</label><input id="form-field-415c07" name="form-field-gansxl" aria-label="Phone number" type="tel" value placeholder="Phone number *" required>
+				<label for="form-field-afc996" class="required">Phone number</label><input id="form-field-afc996" name="form-field-gansxl" aria-label="Phone number" type="tel" value placeholder="Phone number *" required>
 				
 				
 							</div>
 
 							<div class="form-group">
-				<label for="form-field-ea21fa" class="required">Email</label><input id="form-field-ea21fa" name="form-field-b04028" aria-label="Email" type="email" value placeholder="Your Email *" required>
+				<label for="form-field-c8d6cd" class="required">Email</label><input id="form-field-c8d6cd" name="form-field-b04028" aria-label="Email" type="email" value placeholder="Your Email *" required>
 				
 				
 							</div>
 
 							<div class="form-group">
-				<label for="form-field-daad57">Address line 1</label><input id="form-field-daad57" name="form-field-tsvtdp" aria-label="Address line 1" type="text" value placeholder="Address line 1" spellcheck="false">
+				<label for="form-field-126091">Address line 1</label><input id="form-field-126091" name="form-field-tsvtdp" aria-label="Address line 1" type="text" value placeholder="Address line 1" spellcheck="false">
 				
 				
 							</div>
 
 							<div class="form-group">
-				<label for="form-field-57604a">Address line 2</label><input id="form-field-57604a" name="form-field-uhzdwj" aria-label="Address line 2" type="text" value placeholder="Address line 2" spellcheck="false">
+				<label for="form-field-6b9b55">Address line 2</label><input id="form-field-6b9b55" name="form-field-uhzdwj" aria-label="Address line 2" type="text" value placeholder="Address line 2" spellcheck="false">
 				
 				
 							</div>
 
 							<div class="form-group">
-				<label for="form-field-8f78f9">City</label><input id="form-field-8f78f9" name="form-field-zinamv" aria-label="City" type="text" value placeholder="City" spellcheck="false">
+				<label for="form-field-d19ad6">City</label><input id="form-field-d19ad6" name="form-field-zinamv" aria-label="City" type="text" value placeholder="City" spellcheck="false">
 				
 				
 							</div>
 
 							<div class="form-group">
-				<label for="form-field-2234e5">State</label><input id="form-field-2234e5" name="form-field-epgshj" aria-label="State" type="text" value placeholder="State" spellcheck="false">
+				<label for="form-field-100781">State</label><input id="form-field-100781" name="form-field-epgshj" aria-label="State" type="text" value placeholder="State" spellcheck="false">
 				
 				
 							</div>
 
 							<div class="form-group">
-				<label for="form-field-033361">Zip Code</label><input id="form-field-033361" name="form-field-ehtaog" aria-label="Zip Code" type="text" value placeholder="Zip Code" spellcheck="false">
+				<label for="form-field-16942f">Zip Code</label><input id="form-field-16942f" name="form-field-ehtaog" aria-label="Zip Code" type="text" value placeholder="Zip Code" spellcheck="false">
 				
 				
 							</div>
 
 							<div class="form-group">
-				<label for="form-field-aa5453" class="required">Scope of work</label>
-								<textarea id="form-field-aa5453" name="form-field-e0d320" aria-label="Scope of work" placeholder="Job Description  *" spellcheck="false" required></textarea>
+				<label for="form-field-f84558" class="required">Scope of work</label>
+								<textarea id="form-field-f84558" name="form-field-e0d320" aria-label="Scope of work" placeholder="Job Description  *" spellcheck="false" required></textarea>
 				
 				
 							</div>
